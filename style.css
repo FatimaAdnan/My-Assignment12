@@ -1,0 +1,54 @@
+body{
+margin: 0px;
+padding: 0px;
+}
+nav{
+display: flex;
+justify-content: space-between;
+background-color: gray;
+align-items: center;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    color: white;
+} 
+
+nav ul li{
+    margin-left: 10px;
+}
+
+.hero{
+    background-image: url(pexels-pixabay-274973.jpg);
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.logo{
+    width:200px;
+}
+.hero-content{
+height: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.hero-content >p{
+    text-align: center;
+color: white;
+font-weight: bold;
+font-size: 32px;
+}
+#Watch{
+    background: transparent;
+    border: 1px solid white;
+height: 30px;
+width: 120px;
+cursor: pointer;
+transition: 0.4s;
+}
+#Watch:hover{
+background-color: black;
+color: white;
+}
